@@ -3,7 +3,7 @@ namespace DesafioPOO.Models
     // Herdar da classe "Smartphone"
     public class Nokia : Smartphone
     {
-        public Nokia(string modelo, string imei, int memoria) : base(modelo, imei, memoria){
+        public Nokia(string numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria){
 
         }
         //Sobrescrever o método "InstalarAplicativo"
